@@ -10,7 +10,3 @@ def get_ip():
     if format == 'json':
         ip = jsonify(ip=ip)
     return ip
-
-
-if __name__ == '__main__':
-    app.run()
