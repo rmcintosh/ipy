@@ -1,8 +1,6 @@
-from flask import Flask, request, jsonify
+from ipy import app
+from flask import request, jsonify
 from flask_limiter.util import get_remote_address
-
-
-app = Flask(__name__)
 
 
 @app.route('/', methods=['GET'])
