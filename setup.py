@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='ipy',
-    packages='ipy'],
+    packages=['ipy'],
     include_package_data=True,
     install_requires=[
         'flask',
