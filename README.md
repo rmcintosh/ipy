@@ -1,4 +1,4 @@
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT)
 [![circleci](https://circleci.com/gh/rmcintosh/ipy.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/rmcintosh/ipy)
 
 # ipy
