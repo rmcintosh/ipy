@@ -9,7 +9,6 @@ from ipy import app
 
 
 class ViewsTest(unittest.TestCase):
-
     def setUp(self):
         self.app = app.test_client()
 
