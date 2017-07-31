@@ -16,17 +16,17 @@ class ViewsTest(unittest.TestCase):
     def test_get_ip(self):
         """GET /
         """
-        self.result = self.app.get("/")
+        self.result = self.app.get('/')
         self.result = self.result.data.decode()
-        self.assertEqual(self.result, "127.0.0.1")
+        self.assertEqual(self.result, '127.0.0.1')
 
     def test_get_ip_json(self):
         """GET /?format=json
         """
         with app.test_request_context():
-            self.result = self.app.get("/?format=json")
+            self.result = self.app.get('/?format=json')
             self.result = self.result.data.decode()
-            self.expected = jsonify(ip="127.0.0.1").data.decode()
+            self.expected = jsonify(ip='127.0.0.1').data.decode()
             self.assertEqual(self.result, self.expected)
 
 
