@@ -1,5 +1,5 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
-![circleci](https://circleci.com/gh/rmcintosh/ipy.svg?style=shield&circle-token=:circle-token)
+[![circleci](https://circleci.com/gh/rmcintosh/ipy.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/rmcintosh/ipy)
 
 # ipy
 A simple IP address API in Python
