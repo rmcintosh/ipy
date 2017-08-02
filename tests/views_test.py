@@ -23,7 +23,7 @@ class ViewsTest(unittest.TestCase):
         """GET /?format=json
         """
         with app.test_request_context():
-            self.result = self.app.get('/?format=json')
+            self.result = self.app.get('/?output=json')
             self.result = self.result.data.decode()
             self.expected = jsonify(ip='127.0.0.1').data.decode()
             self.assertEqual(self.result, self.expected)

@@ -5,8 +5,8 @@ from flask_limiter.util import get_remote_address
 
 @app.route('/', methods=['GET'])
 def get_ip():
-    format = request.args.get('format', None)
+    output = request.args.get('output', None)
     ip = get_remote_address()
-    if format == 'json':
+    if output == 'json':
         ip = jsonify(ip=ip)
     return ip
